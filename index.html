@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
+    <title>Password Validation Check</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="pass-field">
+            <input type="password" placeholder="Create password">
+            <i class="fa fa-solid fa-eye"></i>
+        </div>
+        <div class="content">
+            <p>Password must contains</p>
+            <ul class="requirement-list">
+                <li>
+                    <i class="fa fa-solid fa-circle"></i>
+                    <span>At least 8 characters length</span>
+                </li>
+                <li>
+                    <i class="fa fa-solid fa-circle"></i>
+                    <span>At least 1 number (0...9)</span>
+                </li>
+                <li>
+                    <i class="fa fa-solid fa-circle"></i>
+                    <span>At least 1 lowercase letter (a...z)</span>
+                </li>
+                <li>
+                    <i class="fa fa-solid fa-circle"></i>
+                    <span>At least 1 special symbol (!...$)</span>
+                </li>
+                <li>
+                    <i class="fa fa-solid fa-circle"></i>
+                    <span>At least 1 uppercase letter(A...Z)</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
